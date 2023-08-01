@@ -1,0 +1,127 @@
+@font-face {
+font-family: "droid";
+    src: url(medias/fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #CBE8D9;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+h1{
+    font-family: 'droid';
+}
+
+h2{
+    font-family: 'droid';
+    background-image: linear-gradient(to Right,#CBE8D9, white );
+    padding-left: 15px;
+}
+
+#tit{
+    margin-top: 0px;
+    color: rgb(0, 87, 0);
+    padding-left: 15px;
+}
+
+header{
+    margin: -20px -10px 0 -10px;
+    background-image: linear-gradient(to Bottom, rgb(0, 212, 0), green, rgb(1, 110, 1));
+    text-align: center;
+    color: white;
+    padding: 12px 12px 3px 12px;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+nav > a:hover{
+    background-color: rgb(0, 82, 0);
+    border-radius: 4px;
+}
+
+main{
+    background-color: white;
+    padding: 0px 10px 10px;
+
+    max-width: 850px;
+    min-height: 280px;
+    margin: auto;
+}
+
+main > div > p > a{
+    text-decoration: none;
+    color: rgb(0, 87, 0);
+    font-weight: bold;
+}
+
+#dif{
+    text-decoration: none;
+    color: rgb(0, 87, 0);
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.pq{
+    max-width: 350px;
+    
+}
+p{
+    text-indent: 8px;
+}
+
+#video{
+    background-color: green;
+    padding-bottom: 59%;
+    margin-right: -10px;
+    margin-left: -10px;
+    position: relative;
+}
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#headlis{
+    background-color: rgb(117, 155, 135);
+    margin-bottom: 5px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 7px 0px;
+    font-family: 'droid';
+    border-radius: 15px 15px 0px 0px;
+}
+
+#list{
+    padding: 0px 8px 8px 8px;
+    background-color: rgb(163, 219, 190);
+    border-radius: 15px;
+}
+
+ul{
+    columns: 2;
+    list-style-type: '\1F5F8\00A0\00A0';
+}
+
+footer{
+    margin: -10px;
+    background-color: green;
+    text-align: center;
+}
